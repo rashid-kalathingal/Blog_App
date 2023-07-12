@@ -1,0 +1,139 @@
+.container {
+    margin-top: 550px;
+    width: 100%;
+  }
+  
+  .wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  
+  h3 {
+    font-size: 28px;
+    margin: 2rem 0;
+  }
+  
+  .categoriesAndBlogs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .categories {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .category {
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 0.25rem 1.5rem;
+    border: 1px solid #222;
+    text-transform: capitalize;
+  }
+  
+  .category.active {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .blogs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .blog {
+    background-color: #fff;
+    border-radius: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .blog:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog > a > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .categoryAndMetadata {
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .metadata {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  
+  .blogData {
+    color: #000;
+  }
+  
+  .category {
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 0.25rem 1rem;
+    border: 1px solid #222;
+    text-transform: capitalize;
+  }
+  
+  h4 {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .blogDesc {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+  }
+  
+  .authorAndCreatedAt {
+    display: flex;
+    justify-content: space-between;
+    color: #444;
+  }
+  
+  .authorAndCreatedAt > span > span {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .readMore {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 1rem;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .readMore:hover {
+    color: #333;
+  }
+  
+  .noBlogsMessage {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+  }
+  

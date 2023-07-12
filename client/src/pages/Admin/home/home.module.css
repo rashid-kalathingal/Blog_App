@@ -1,0 +1,52 @@
+.table-container {
+  width: 70%;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+table {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f2f2f2;
+}
+
+thead th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody td {
+  padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 8px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.button-block {
+  background-color: red;
+}
+
+.button-unblock {
+  background-color: green;
+}
+
+.button-view {
+  background-color: blue;
+}
